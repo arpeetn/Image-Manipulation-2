@@ -1,3 +1,7 @@
+// Arpeet Naik
+// CPSC 1020 Fall 2021
+// PA2
+// Image Header File
 #ifndef IMAGE_H
 #define IMAGE_H
 
