@@ -1,6 +1,7 @@
 // Arpeet Naik
 // CPSC 1020 - Fall 2021
 // PA2
+// Manipulation Header File
 
 #ifndef MANIP_H
 #define MANIP_H
