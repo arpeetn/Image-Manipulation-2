@@ -26,13 +26,14 @@ class Image{
 
   public:
 
-
+    //copy constructors
     Image(const Image& input);
     Image(ifstream& image);
-
+    
+    //destructor
     ~Image();
 
-
+    //parameterized constructor
     Pixel& operator()(int x, int y);
 
     void write_header(ofstream& output) const;
