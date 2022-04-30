@@ -4,21 +4,22 @@
 
 #include "Image.h"
 
+//copy constructor
 Image::Image(const Image& input){
   this->header = input.header;
   this->pixels = input.pixels;
 
 }
 
+//copy constructor
 Image::Image(ifstream& image){
   header = read_header(image);
   pixels = read_pixels(header, image);
 
 }
 
-Image::~Image(){
-
-}
+//destructor
+Image::~Image(){}
 
 vector<Pixel> Image::read_pixels(const Header& header, ifstream& input){
 
